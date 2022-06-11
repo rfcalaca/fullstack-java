@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap');
+
+:root {
+    --primaryColor: rgb(162, 217, 251);   
+    -moz-background-clip: ;
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primaryColor);
+    font-size: 1.3em;
+    color: aliceblue;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: rgba(137, 43, 226, 0.8);
+  
+    padding: 20px;
+    box-shadow: 1;
+    border-radius: 15px;
+    text-align: justify;
+}
+
+.container:hover {
+    background-color: rgba(137, 43, 226, 0.401);
+   
+}
+
+form input, form label, form button {
+    display: block;
+    width: 80%;
+    margin-bottom: 10px;
+    box-shadow: crimson;
+    border-radius: 10px;
+}
+
+form {
+    align-items: inherit;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus{
+    outline: 1px var(--primaryColor);
+}
+
+form button {
+    border: 3px;
+    background-color: rgba(6, 199, 12, 0.862);
+    padding: 15px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+}
+
+form button:shadow {
+    color: rgba(0, 0, 0, 0.495);
+}
+
+form button:hover{
+    cursor: pointer;
+    background: 20px rgba(5, 47, 233, 0.748);
+}
+
+.formulario{
+align-items: center;
+}
+
+.resultado {
+}
+
+#div1, #div2 {
+    height: 50px;
+    width: 250px;
+    
+    display: inline-block;
+    padding: 20px;
+}
+
+div {
+    padding: 10px 0px 0px 0px;
+}
