@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos Flex Grow</title>
+    <style>
+        .flex-container {
+            max-width: 350px;
+            border: 2px solid black;
+            display: flex;
+            
+        }
+        .item {
+            background-color: rgb(89, 70, 234);
+            margin: 5px;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        .fg-0 {
+            flex-grow: 0;
+        }
+
+        .fg-1 {
+            flex-grow: 1;
+        }
+
+        .fg-2 {
+            flex-grow: 2;
+        }
+
+        .fg-3 {
+            flex-grow: 3;
+        }
+
+
+
+        /*
+     .center {
+            align-items: center;
+        }
+
+        .stretch {
+            align-items: stretch;
+        }
+
+        .start {
+            align-items: flex-start;
+        }
+
+        .end {
+            align-items: flex-end;
+        }
+
+        .baseline {
+            align-items: baseline;
+        }
+
+        .column {
+            flex-direction: column;
+        }
+
+        .central {
+              height: 400px;
+              justify-content: center;
+        }
+
+        .central .item{
+            flex: 0;
+            padding: 50px;
+        }
+
+        */
+
+        </style>
+</head>
+<body>
+
+    <p>Flex Grow 0</p>
+    <section class="flex-container fg-0">
+        <div class="item fg-0">A </div>
+        <div class="item fg-0">B</div>
+        <div class="item fg-0"> C</div>
+    </section>
+
+    <p>Flex Grow 1</p>
+    <section class="flex-container fg-1">
+        <div class="item fg-1">A </div>
+        <div class="item fg-1">B</div>
+        <div class="item fg-1"> C</div>
+    </section>
+
+    <p>Flex Grow 2</p>
+    <section class="flex-container fg-2">
+        <div class="item fg-1">A </div>
+        <div class="item fg-2">B</div>
+        <div class="item fg-1"> C</div>
+    </section>
+
+    <p>Flex Grow 3</p>
+    <section class="flex-container fg-3">
+        <div class="item fg-0">A </div>
+        <div class="item fg-1">B</div>
+        <div class="item fg-2"> C</div>
+    </section>
+
+   
+
+
+</body>
+</html>
